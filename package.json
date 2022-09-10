@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "class assignment",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle-vance/Team-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "Kyle Vance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle-vance/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/kyle-vance/Team-Profile-Generator",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
