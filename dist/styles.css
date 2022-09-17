@@ -1,0 +1,27 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url("hello-world.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+.custom-jumbotron {
+    background-color:#15b78f;
+    font-size: larger;
+    
+}
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color:bisque;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 250px;
+}

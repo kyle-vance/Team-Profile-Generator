@@ -1,3 +1,4 @@
+// Requires/imports
 const fs = require("fs");
 const Engineer = require("./lib/engineer.js");
 const Manager = require("./lib/manager.js");
@@ -6,6 +7,7 @@ const inquirer = require("inquirer");
 const generateHTML = require("./src/generateHTML.js");
 const team = [];
 
+// Inquirer prompt questions
 inquirer
   .prompt([
     {
@@ -47,7 +49,7 @@ const menuOptions = () => {
         type: "list",
         message: "Would you like to add another employee?",
         name: "newTeamMember",
-        choices: ["Add an engineer", "Add an intern", "I'm done adding team members for now."],
+        choices: ["Add an engineer", "Add an intern", "I'm done adding team members."],
       },
     ])
     .then((data) => {
@@ -138,6 +140,7 @@ const internQuestions = () => {
 
 const createTeam = () => {
   const html = generateHTML(team);
+  console.log("Your team has been created. You can find your team profile under ./dist/index.html.")
   fs.writeFileSync("dist/index.html", html);
 };
 
