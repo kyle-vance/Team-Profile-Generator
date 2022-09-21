@@ -5,6 +5,9 @@
 ## Description
 This application is ran from the terminal using node.js. It is designed to be able to quickly and easily build a team and display their information in one place. It also uses Jest to allow testing of the constructors. 
 
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/105682564/191563158-5ab801c4-7681-4794-8d0b-d700fa6358d6.png">
+
+
 ---
 
 ## Table of Contents
