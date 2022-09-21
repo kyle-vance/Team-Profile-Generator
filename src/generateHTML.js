@@ -22,7 +22,7 @@ const createTeam = (data) => {
                 <li class="list-group-item name">${data.name}</li>
                 <li class="list-group-item">Role: Engineer</li>
                 <li class="list-group-item">Employee ID: ${data.id}</li>
-                <li class="list-group-item">Email: <span id="email"><a href="mailto:${data.email}">${data.email}</a></span></li>
+                <li class="list-group-item">Email: <span><a href="mailto:${data.email}">${data.email}</a></span></li>
                 <li class="list-group-item">GitHub Username: <a target="_blank" href="https://github.com/${data.github}">${data.github}</a></li>
               </ul>
             </div>`;
@@ -35,7 +35,7 @@ const createTeam = (data) => {
                 <li class="list-group-item name">${data.name}</li>
                 <li class="list-group-item">Role: Intern</li>
                 <li class="list-group-item">Employee ID: ${data.id}</li>
-                <li class="list-group-item">Email: <span id="email"><a href="mailto:${data.email}">${data.email}</a></span></li>
+                <li class="list-group-item">Email: <span><a href="mailto:${data.email}">${data.email}</a></span></li>
                 <li class="list-group-item">School: ${data.school}</li>
               </ul>
             </div>`;
